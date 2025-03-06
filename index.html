@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Primary Meta Tags -->
+    <title>MattHub</title>
+    <meta
+      name="description"
+      content="I'm Matteo, a skilled computer engineer specializing in C, C++, Java, Python, JavaScript, and more. Check out my projects and services."
+    />
+    <meta
+      name="keywords"
+      content="web developer, computer engineer, portfolio, JavaScript, Python, C++, Node.js, Ionic, full-stack developer"
+    />
+    <meta name="author" content="Matteo Naldi" />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="MattHub" />
+    <meta property="og:description" content="Explore my portfolio." />
+    <meta property="og:image" content="img/logo.png" />
+
+    <meta property="og:url" content="" />
+    <!-- TODO add thumbnail url path -->
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="MattHub" />
+    <meta name="twitter:description" content="Explore my portfolio." />
+    <meta name="twitter:image" content="img/logo.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Swiper.js CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="nav-container">
+        <!-- Logo -->
+        <div class="logo">
+          <img class="img-logo" src="img/logo.png" alt="logo" />
+          <img class="text-logo" src="img/logo_text.png" alt="MattHub">
+        </div>
+        <!-- Nav links -->
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contacts">Contact</a></li>
+        </ul>
+        <!-- Hamburger -->
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+      <div class="home-container">
+        <div class="home-content">
+          <h1>Hi, I'm Matteo</h1>
+          <p>Computer Engineer</p>
+          <a href="#contact" class="btn">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="section-container">
+        <div class="section-content">
+          <h2 class="title">About Me</h2>
+          <p>
+            I'm Matteo, a skilled computer engineer specializing in mobile and web development, scripting and more. I have a passion for coding and
+            developing software. I'm always looking for new challenges and
+            opportunities to grow.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="section-container">
+        <div class="section-content">
+          <h2 class="title">Skills</h2>
+          <div class="grid-container" id="grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="section-container">
+        <div class="section-content">
+          <h2 class="title">Projects</h2>
+          <!-- Swiper Slider -->
+          <div class="swiper" id="swiper">
+            <div class="swiper-wrapper" id="swiper-wrapper">
+              <!-- Cards will be dynamically added here -->
+            </div>
+
+            <!-- Navigation Arrows -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacts -->
+    <section class="section" id="contacts">
+      <div class="section-container">
+        <div class="section-content">
+          <h2 class="title">Contacts</h2>
+          <p class="cont">Contact me on my socials!</p>
+          <div class="social-bar">
+            <!-- todo add socials links-->
+            <a
+              href="https://www.facebook.com/matteo.naldi.756"
+              target="_blank"
+              class="social-icon facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/matthub18"
+              target="_blank"
+              class="social-icon instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              class="social-icon linkedin"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a
+              href="https://github.com/matthub18/"
+              target="_blank"
+              class="social-icon github"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <p>&copy; 2025 Matteo Naldi. All rights reserved.</p>
+      </div>
+
+    <script src="script/data.js"></script>
+    <!-- Swiper.js JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script/index.js"></script>
+  </body>
+</html>
