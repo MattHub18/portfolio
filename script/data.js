@@ -55,7 +55,7 @@ const languages = [
         grade: 3,
     },
     {
-        name: "Typescript",
+        name: "TypeScript",
         logo: "typescript", 
         grade: 4,
     },
